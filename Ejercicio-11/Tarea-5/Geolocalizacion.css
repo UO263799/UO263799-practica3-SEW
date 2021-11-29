@@ -1,0 +1,18 @@
+/*especificidad -> 1*/
+body{
+    font: 400 1.4em Tahoma, sans-serif;
+    line-height: 3;
+    color: black;
+}
+
+/*especificidad -> 1*/
+h1{
+    text-align: center;
+    color: darkslategray;
+}
+
+/*especificidad -> 100*/
+#mapa {
+    height: 1000px;
+    width: 100%;
+}

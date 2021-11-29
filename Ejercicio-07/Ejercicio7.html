@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 7</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+        <link rel="stylesheet" href="Ejercicio7.css"/>
+    </head>
+    <body>
+        <h1>Tarea 1</h1>
+        <div class="container">
+            <h2>Ocultar y mostrar elementos html</h2>
+            <p class="p1">Ahora me ves</p>
+            <br>
+            <button type="button" onclick="ejercicio.show('.p1');">Mostrar</button>
+            <button type="button" onclick="ejercicio.hide('.p1');">Esconder</button>
+        </div>
+        <h1>Tarea 2</h1>
+        <div class="container">
+            <h2>Modificar elementos html</h2>
+            <p class="frase">Ahora me ves</p>
+            <br>
+            <button type="button" onclick="ejercicio.modificar('.frase');">Cambiar frase</button>
+        </div>
+        <h1>Tarea 3</h1>
+        <div class="container">
+            <h2>Añadir elementos html</h2>
+            <p class="masCosas"></p>
+            <br>
+            <button type="button" onclick="ejercicio.masElementos('.masCosas');">Nuevo elemento</button>
+        </div>
+        <h1>Tarea 4</h1>
+        <div class="container">
+            <h2>Eliminar elementos html</h2>
+            <p class="mamiferos"></p>
+            <p class="reptiles"></p>
+            <p class="aves"></p>
+            <br>
+            <button type="button" onclick="ejercicio.masMamiferos('.mamiferos');">Añadir mamíferos</button>
+            <button type="button" onclick="ejercicio.masReptiles('.reptiles');">Añadir reptiles</button>
+            <button type="button" onclick="ejercicio.masAves('.aves');">Añadir aves</button>
+            <button type="button" onclick="ejercicio.eliminar('.mamiferos');">Eliminar mamíferos</button>
+            <button type="button" onclick="ejercicio.eliminar('.reptiles');">Eliminar reptiles</button>
+            <button type="button" onclick="ejercicio.eliminar('.aves');">Eliminar aves</button>
+        </div>
+        <h1>Tarea 5</h1>
+        <div class="container">
+            <h2>Mostrar recorrido html</h2>
+            <p class="recorrido"></p>
+            <br>
+            <button type="button" onclick="ejercicio.recorrer('.recorrido');">Mostrar html</button>
+        </div>
+        <h1>Tarea 6</h1>
+        <div class="container">
+            <h2>Sumar filas y columnas de una tabla</h2>
+            <table id="tabla-personas">
+                <tr>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                </tr>
+                <tr>
+                    <td>57483907H</td>
+                    <td>Luis</td>
+                    <td>Fernández</td>
+                </tr>
+                <tr>
+                    <td>47582634R</td>
+                    <td>Sebastián</td>
+                    <td>Gómez</td>
+                </tr>
+                <tr>
+                    <td>23434554L</td>
+                    <td>Ángel</td>
+                    <td>Fernández</td>
+                </tr>
+                <tr>
+                    <td>45665433P</td>
+                    <td>Sofía</td>
+                    <td>Suárez</td>
+                </tr>
+            </table>
+            <h3>Resultado:</h3>
+            <p class="resultadoFilasYColumnas"></p>
+            <br>
+            <button type="button" onclick="ejercicio.sumarFilasYColumnas('.resultadoFilasYColumnas');">Sumar filas y columnas</button>
+        </div>
+    </body>
+</html>

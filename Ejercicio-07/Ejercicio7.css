@@ -1,0 +1,46 @@
+/*especificidad -> 1*/
+body{
+    font: 400 1em Tahoma, sans-serif;
+    line-height: 1.8;
+    color: black;
+    text-align: center;
+}
+
+/*especificidad -> 10*/
+.container {
+    margin: auto;
+    padding: 1em;
+    border: solid;
+    border-radius: 0.7em;
+    width: 40%;
+    border-color: green;
+    margin-bottom: 1em;
+}
+
+/*especificidad -> 1*/
+table{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom:2.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*especificidad -> 1*/
+th{
+    font-style: italic;
+    background-color: green;
+    color: white;
+}
+
+/*especificidad -> 1*/
+tr, td, th{ 
+    font-size: 1.2em;
+    border: 0.05em solid black;}
+
+
+/*especificidad -> 2*/
+table td{
+    text-align: center;
+}
