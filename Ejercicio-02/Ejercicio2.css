@@ -1,0 +1,25 @@
+/*Especificidad -> 1*/
+body{
+    background-color:white;
+    color:black;
+}
+
+/*Especificidad -> 1*/
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    color:red;
+}
+
+/*Especificidad -> 1*/
+h2{
+    text-align:center;
+    text-transform: capitalize;
+    color:blue;
+}
+
+/*Especificidad -> 1*/
+p{
+    margin-left: 1.5em;
+    color:black;
+}

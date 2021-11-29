@@ -1,0 +1,40 @@
+/*Especificidad -> 1*/
+h1{
+    text-align: center;
+}
+
+/*Especificidad -> 1*/
+div {
+    width: 100%;
+    max-width: 25em;
+    text-align: center;
+    padding-bottom: 0.625em;
+    margin: auto;
+    background: black;
+  }
+
+  /*Especificidad -> 11*/
+  input[type=text] {
+      width: 75%;
+      padding: 1em 2em;
+      font-size: 1em;
+      margin: 0.5em 0em;
+      border: none;
+      border-radius: 0.063em;
+      text-align: left;
+      color: black;
+      background: white;
+  }
+
+  /*Especificidad -> 11*/
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 1em 1em;
+      font-size: 1em;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 0.25em 0.125em;
+      cursor: pointer;
+  }
