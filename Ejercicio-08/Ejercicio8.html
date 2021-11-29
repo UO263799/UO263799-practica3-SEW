@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio8</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio8.js"></script>
+    <link rel="stylesheet" href="Ejercicio8.css"/>
+</head>
+<body>
+        
+    <h1>Estación meteorológica uniovi</h1>
+    <ul class="datos"></ul>  
+    
+    <h2>Oviedo</h2>
+    <button id = "TiempoOviedo" onclick = "meteo.cargarDatos('Oviedo'),meteo.verDatos()">Ver meteorología</button>
+    <button id = "JSONOviedo" onclick = "meteo.cargarDatos('Oviedo'), meteo.verJSON()">Obtener JSON</button>
+
+    <h2>Andés</h2>
+    <button id = "TiempoAndes" onclick = "meteo.cargarDatos('Andes, ES'),meteo.verDatos()">Ver meteorología</button>
+    <button id = "JSONAndes" onclick = "meteo.cargarDatos('Andes, ES'),meteo.verJSON()">Obtener JSON</button>   
+
+    <h2>Navia</h2>
+    <button id = "TiempoNavia" onclick = "meteo.cargarDatos('Navia'),meteo.verDatos()">Ver meteorología</button>
+    <button id = "JSONNavia" onclick = "meteo.cargarDatos('Navia'),meteo.verJSON()">Obtener JSON</button>
+    
+    <h2>Coaña</h2>
+    <button id = "TiempoCoaña" onclick = "meteo.cargarDatos('Coaña'),meteo.verDatos()">Ver meteorología</button>
+    <button id = "JSONCoaña" onclick = "meteo.cargarDatos('Coaña'),meteo.verJSON()">Obtener JSON</button>
+
+    <h2>Ribadeo</h2>
+    <button id = "TiempoRibadeo" onclick = "meteo.cargarDatos('Ribadeo'),meteo.verDatos()">Ver meteorología</button>
+    <button id = "JSONRibadeo" onclick = "meteo.cargarDatos('Ribadeo'),meteo.verJSON()">Obtener JSON</button>   
+    
+   <footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>
