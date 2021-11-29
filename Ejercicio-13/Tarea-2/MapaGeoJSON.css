@@ -1,6 +1,7 @@
 /*especificidad -> 1*/
 body{
     font: 400 1.4em Tahoma, sans-serif;
+    background-color: white;
     color: black;
 }
 
@@ -8,7 +9,7 @@ body{
 h1{
     text-align: center;
     color: white;
-    background-color: brown;
+    background-color: rgb(116, 69, 25);
 }
 
 /*especificidad -> 100*/
