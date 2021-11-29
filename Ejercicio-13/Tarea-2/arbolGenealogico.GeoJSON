@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oviedo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -5.867771,43.356955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Navia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         43.537194,-6.708091
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Nadou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.788807,43.486882
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "La Colorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.708091,43.537194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nadou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.791655,43.485205
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Jarrio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.749220,43.540011
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Coaña"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.747452,43.516661
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Nadou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.788916,43.487437
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Andés"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.701540,43.544740
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "La Colorada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.710666,43.537630
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Andés"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.700063,43.545309
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Paderne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.701589,43.540677
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Paderne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.705420,43.539900
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Oviedo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.867128,43.356631
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Luarca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.536684,43.541828
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Medal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.760463,43.554244
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Medal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.762188,43.554030
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Oviedo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.868598,43.356577
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Mohías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.742013,43.548819
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Medal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.759234,43.551911
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ortiguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.741010,43.560568
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ortiguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.742332,43.561233
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ortiguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.742137,43.559065
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ortiguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.742457,43.559711
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ortiguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.734554,43.562251
+        ]
+      }
+    }
+	]
+}
