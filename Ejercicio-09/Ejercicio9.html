@@ -9,29 +9,28 @@
 </head>
 <body>
         
-    <h1>Estación meteorológica uniovi</h1>
-    
-    
-
-    
+    <h1>Estación meteorológica uniovi</h1>   
     <h2>Andés</h2>
-    <button id = "XMLAndés" onclick = "meteo.verXML('Andés, ES')">Ver meteorología</button>
+    <button id = "XMLAndés" onclick = "meteo.cargarDatos('Andés', 'ES')">Ver meteorología</button>
     
     <h2>Oviedo</h2>
-    <button id = "XMLOviedo" onclick = "meteo.verXML('Oviedo')">Ver meteorología</button>
+    <button id = "XMLOviedo" onclick = "meteo.cargarDatos('Oviedo', 'ES')">Ver meteorología</button>
     
     
     <h2>Coaña</h2>
-    <button id = "XMLCoaña" onclick = "meteo.verXML('Coaña')">Ver meteorología</button>
+    <button id = "XMLCoaña" onclick = "meteo.cargarDatos('Coaña', 'ES')">Ver meteorología</button>
     
     <h2>Ribadeo</h2>
-    <button id = "XMLRibadeo" onclick = "meteo.verXML('Ribadeo')">Ver meteorología</button>
+    <button id = "XMLRibadeo" onclick = "meteo.cargarDatos('Ribadeo', 'ES')">Ver meteorología</button>
     
     <h2>Navia</h2>
-    <button id = "XMLNavia" onclick = "meteo.verXML('Navia')">Ver meteorología</button>
-    
+    <button id = "XMLNavia" onclick = "meteo.cargarDatos('Navia', 'ES')">Ver meteorología</button>       
+        
+    <br>
+    <p><strong>XML:</strong></p>
+    <p class="xml"></p>
+    <p><strong>Meteorología</strong></p>
     <p class="datos"></p>
-    <ul class="datos"></ul>
     
    <footer>
     <a href="https://validator.w3.org/check?uri=referer">

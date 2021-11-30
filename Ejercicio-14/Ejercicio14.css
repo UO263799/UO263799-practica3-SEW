@@ -3,6 +3,7 @@ body{
     font: 400 1em Tahoma, sans-serif;
     line-height: 1.8;
     color: black;
+    background-color: white;
     text-align: center;
 }
 
@@ -20,5 +21,5 @@ input[type=file]{
     border-radius: 0.7em;
     width: 50%;
     border-color: black;
-    margin-bottom: 1em;
+    
 }

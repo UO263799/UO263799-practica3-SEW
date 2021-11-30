@@ -15,7 +15,9 @@ function(city){
         url: meteo.url,
         method: 'GET',
         success: function(data){            
-            meteo.datos = data;           
+            meteo.datos = data;
+            meteo.verDatos();   
+            meteo.verJSON();        
         },
         error:function(){
             document.write(meteo.error);    
@@ -23,15 +25,12 @@ function(city){
     });
 }
 
-
-
 meteo.verJSON = function(){        
-    $('.datos').append(" en JSON desde <a href='http://openweathermap.org'>OpenWeatherMap</a>");
-    $('.datos').empty();
-    $('.datos').append("JSON");
-    var str = JSON.stringify(meteo.datos, null, 2);
-    $('.datos').append(str);
-    $('#cargarJSON').attr("disabled", true);
+    $('.json').append(" en JSON desde <a href='http://openweathermap.org'>OpenWeatherMap</a>");
+    $('.json').empty();
+    $('.json').append("JSON");
+    $('.json').append(JSON.stringify(meteo.datos, null, 2));
+    
 }
 
 meteo.verDatos = function(){

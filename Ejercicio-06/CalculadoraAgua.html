@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Consumo de agua</title>
+        <meta name="description" content="Calculadora RPN">
+        <meta name="author" content="Jesús González Méndez">
+        <link rel="stylesheet" href="CalculadoraAgua.css"/>
+        <script src="CalculadoraAgua.js"></script>
+    </head>
+    <body>
+        <h1>Calculadora de Consumo de Agua</h1>
+        <p>Introduce los siguientes valores en orden en la pila:</p>
+        <ul>
+            <li>Número de personas en la casa</li>
+            <li>Veces que se ducha cada persona a la semana(90 L/ducha)</li>
+            <li>Cuantas veces al día tiras de la cadena(4 L/vez)</li>
+            <li>Cuantas veces al día te lavas los dientes (8 L/vez)</li>
+            <li>Cuantas veces pones la lavadora a la semana (42 L/lavadora)</li>
+            <li>Cuantas veces pones el lavavajillas a la semana (54 L/lavavajillas)</li>
+
+        </ul>
+		
+        <div class="calculadora">
+            <div id="calculator">
+                <input title="pila" id="pila" name="pila" type="text" disabled>
+                <input title="resultado" id="pantalla" name="pantalla" type="text" disabled>   
+                <div>
+                    <input type="button" id="7" value="7" onClick="calculadora.digitos(7)">
+                    <input type="button" id="8" value="8" onClick="calculadora.digitos(8)">
+                    <input type="button" id="9" value="9" onClick="calculadora.digitos(9)">
+                    <input type="button" id="C" value="C" onClick="calculadora.borrar()">
+                </div>
+                <div>
+                    <input type="button" id="4" value="4" onClick="calculadora.digitos(4)">
+                    <input type="button" id="5" value="5" onClick="calculadora.digitos(5)">
+                    <input type="button" id="6" value="6" onClick="calculadora.digitos(6)">
+                    <input type="button" id="DEL" value="DEL" onClick="calculadora.delete()">
+                </div>
+                <div>
+                    <input type="button" id="1" value="1" onClick="calculadora.digitos(1)">
+                    <input type="button" id="2" value="2" onClick="calculadora.digitos(2)">
+                    <input type="button" id="3" value="3" onClick="calculadora.digitos(3)">
+                    <input type="button" id="+" value="resultado" onClick="calculadora.resultado()"> 
+                </div>
+                <div>
+                    <input type="button" id="noButton19" value="NO"> 
+                    <input type="button" id="0" value="0" onClick="calculadora.digitos(0)">
+                    <input type="button" id="." value="." onClick="calculadora.punto()">
+                    <input type="button" id="push" value="push" onClick="calculadora.push();">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

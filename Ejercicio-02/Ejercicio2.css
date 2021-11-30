@@ -8,6 +8,7 @@ body{
 h1{
     text-align:center;
     text-transform: uppercase;
+    background-color:white;
     color:red;
 }
 
@@ -15,11 +16,13 @@ h1{
 h2{
     text-align:center;
     text-transform: capitalize;
+    background-color:white;
     color:blue;
 }
 
 /*Especificidad -> 1*/
 p{
     margin-left: 1.5em;
+    background-color:white;
     color:black;
 }

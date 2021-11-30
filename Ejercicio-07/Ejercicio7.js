@@ -1,75 +1,51 @@
 "use strict";
 class Ejercicio7 {
-    
-    show(element){
-        $(element).show();
+    show(elem){
+        $(elem).show();
     }
-    hide(element){
-        $(element).hide();
+    hide(elem){
+        $(elem).hide();
     }
-    addName(element){
-        $(element).empty();
-        $(element).append('El nombre del creador es: ')
-        var myDestiny = ['Jesús', 'Isra', 'Luis', 'Héctor', 'Javi'];         
-        var rand = myDestiny[Math.floor(Math.random() * myDestiny.length)];
-        $(element).append(rand);
-      
+    modificar(elem){
+        var frases = ["Vaya día...", "Con amigos así todo es posible", "Perdimos por la mínima", "Ojalá aprobar esta asignatura..."];
+        var random = Math.floor(Math.random() * frases.length);
+        $(elem).text(frases[random]);
     }
-    
-    addSurname(element){  
-        $(element).empty();
-        $(element).append('Los apellidos del creador son:  ')
-        var myStory = ['González Méndez', 'Méndez Rodríguez', 'García Suárez', 'Fernández Fernández'];  
-        var rand1 = myStory[Math.floor(Math.random() * myStory.length)];        
-        $(element).append(rand1);
+    masElementos(elem){
+        var elementos = ["Elemento1", "Elemento2", "Elemento3", "Elemento4",  "Elemento5", "Elemento6", "Elemento7", "Elemento8"];
+        var random = Math.floor(Math.random() * elementos.length);
+        $(elem).append(elementos[random] + " ");
     }
-    delete(element){
-        $(element).remove();
+    masMamiferos(elem){
+        var mamiferos = ["Vaca", "Perro", "Delfin", "Gato"];
+        var random = Math.floor(Math.random() * mamiferos.length);
+        $(elem).append(mamiferos[random] + " ");
     }
-    
-    path(element){
+    masReptiles(elem){
+        var reptiles = ["Dragon comodo", "Gecko", "Camaleón", "Lagartija"];
+        var random = Math.floor(Math.random() * reptiles.length);
+        $(elem).append(reptiles[random] + " ");
+    }
+    masAves(elem){
+        var aves = ["Buho", "Buitre", "Periquito", "Colibri"];
+        var random = Math.floor(Math.random() * aves.length);
+        $(elem).append(aves[random] + " ");
+    }
+    eliminar(elem){
+        $(elem).remove();
+    }
+    recorrer(element){
         $("*", document.body).each(function() {
-         var parent = $("*", document.body).parent().get(0).tagName;
-        
-        $(element).append(document.createTextNode(" [Elemento: <" + $(this).get(0).tagName +"> Padre: <" +parent + "> ]  "))
+            var parentTag = $(this).parent().get(0).tagName;
+            $(element).prepend(document.createTextNode( "[Etiqueta padre: <"  + parentTag + "> Tipo de elemento: <" + $(this).get(0).tagName +"> ]"));
         });
-        
     }
-    
-    
-     modifySize(){
-        $("*",document.body).each((function(){
-        $("*").css("font-size","100%"); 
-        }));
-    }
-    
-    modifySizeUp(){
-        $("*",document.body).each((function(){
-        $("*").css("font-size","115%");
-        }));
-    }
-    
-    modifySizeDown(){
-        $("*",document.body).each((function(){
-        $("*").css("font-size","90%");
-        }));
-    }
-
-    showTable(){        
-        $("table tr").each(function() {
-            $(this).show();
-        });        
-    }
-
-    hideTable(){
-        $("table tr td").each(function() {
-            var celda = $.trim($(this).text());
-            if (celda.length == 0) {
-                $(this).parent().hide();
-            }
-        });
+    sumarFilasYColumnas(elem){
+        var nFilas = $("#tabla-personas tr").length;
+        var nColumnas = $("#tabla-personas tr:last td").length;
+        var res = nFilas + nColumnas
+        $(elem).text(nFilas + " filas + " + nColumnas + " columnas = " + res);
     }
 
 }
-                           
-var ejercicio7 = new Ejercicio7();
+var ejercicio = new Ejercicio7();

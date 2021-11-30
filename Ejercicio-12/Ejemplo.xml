@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "arbol.dtd">
+<personas>
+    <persona nombre="Jesús" apellidos="González Méndez">
+        <datos>
+            <fecha_nacimiento>18/06/1999</fecha_nacimiento>
+            <lugar_nacimiento>Oviedo</lugar_nacimiento>        
+            <coordenadas_nacimiento>                
+                <latitud>-5.867771</latitud>
+                <longitud>43.356955</longitud>
+                <altitud>292</altitud>
+            </coordenadas_nacimiento>
+            <fecha_muerte></fecha_muerte>
+            <lugar_muerte></lugar_muerte>
+            <coordenadas_muerte>                
+                <latitud></latitud>
+                <longitud></longitud>
+                <altitud></altitud>
+            </coordenadas_muerte>
+            <fotografias enlace="multimedia/yo.jpg"></fotografias>
+            <videos></videos>         
+            <comentarios>Estudiante Ingeniería Informática</comentarios>  
+        </datos>
+        <persona nombre="Alicia" apellidos="Méndez Suárez">
+            <datos>
+                <fecha_nacimiento>11/05/1970</fecha_nacimiento>
+                <lugar_nacimiento>Navia</lugar_nacimiento>        
+                <coordenadas_nacimiento>                 
+                    <latitud>-6.708091</latitud>
+					<longitud>43.537194</longitud>
+                    <altitud>85</altitud>
+                </coordenadas_nacimiento>
+                <fecha_muerte></fecha_muerte>
+                <lugar_muerte></lugar_muerte>
+                <coordenadas_muerte>                    
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud></altitud>               
+                </coordenadas_muerte>
+                <fotografias enlace="multimedia/madre.jpg">Madre</fotografias>
+                <videos></videos>         
+                <comentarios>Madre</comentarios>  
+            </datos>
+            <persona nombre="Alicia" apellidos="Suárez García">
+                <datos>
+                    <fecha_nacimiento>03/09/1935</fecha_nacimiento>
+                    <lugar_nacimiento>Nadou</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.788807</latitud>
+                        <longitud>43.486882</longitud>
+                        <altitud>182</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>01/09/2020</fecha_muerte>
+                    <lugar_muerte>La Colorada</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.708091</latitud>
+                        <longitud>43.537194</longitud>
+                        <altitud>85</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela1.jpg">Abuela materna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Abuela materna</comentarios>  
+                </datos>
+                <persona nombre="Socorro" apellidos="García">
+                <datos>
+                    <fecha_nacimiento>1899</fecha_nacimiento>
+                    <lugar_nacimiento>Nadou</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.791655</latitud>
+                        <longitud>43.485205</longitud>
+                        <altitud>183</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>05/07/1999</fecha_muerte>
+                    <lugar_muerte>Jarrio</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.749220</latitud>
+                        <longitud>43.540011</longitud>
+                        <altitud>77</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela2.jpg">Bisabuela materna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuela materna</comentarios>  
+                </datos>
+                </persona>
+                <persona nombre="José" apellidos="Suárez">
+                <datos>
+                    <fecha_nacimiento>12/10/1898</fecha_nacimiento>
+                    <lugar_nacimiento>Coaña</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.747452</latitud>
+                        <longitud>43.516661</longitud>
+                        <altitud>81</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>23/03/1990</fecha_muerte>
+                    <lugar_muerte>Nadou</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.788916</latitud>
+                        <longitud>43.487437</longitud>
+                        <altitud>202</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo6.jpg">Bisabuelo materno</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuelo materno</comentarios>  
+                </datos>
+                </persona>                
+            </persona>
+            <persona nombre="Adolfo" apellidos="Méndez Fernández">
+                <datos>
+                    <fecha_nacimiento>23/08/1935</fecha_nacimiento>
+                    <lugar_nacimiento>Andés</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.701540</latitud>
+                        <longitud>43.544740</longitud>
+                        <altitud>83</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>07/05/2015</fecha_muerte>
+                    <lugar_muerte>La Colorada</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.710666</latitud>
+                        <longitud>43.537630</longitud>
+                        <altitud>85</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo1.jpg">Abuelo materno</fotografias>
+                    <videos></videos>         
+                    <comentarios>Abuelo materno</comentarios>  
+                </datos>
+                <persona nombre="María Francisca" apellidos="Fernández">
+                <datos>
+                    <fecha_nacimiento>29/01/1899</fecha_nacimiento>
+                    <lugar_nacimiento>Andés</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.700063</latitud>
+                        <longitud>43.545309</longitud>
+                        <altitud>82</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>26/12/2012</fecha_muerte>
+                    <lugar_muerte>Paderne</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.701589</latitud>
+                        <longitud>43.540677</longitud>
+                        <altitud>77</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela3.jpg">Bisabuela materna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuela materna</comentarios>  
+                </datos>
+                </persona>
+                <persona nombre="Ángel" apellidos="Méndez">
+                <datos>
+                    <fecha_nacimiento>17/07/1897</fecha_nacimiento>
+                    <lugar_nacimiento>Paderne</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.705420</latitud>
+                        <longitud>43.539900</longitud>
+                        <altitud>61</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>11/06/1995</fecha_muerte>
+                    <lugar_muerte>Oviedo</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-5.867128</latitud>
+                        <longitud>43.356631</longitud>
+                        <altitud>288</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo5.jpg">Bisbuelo materno</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuelo materno</comentarios>  
+                </datos>
+                </persona>
+            </persona>
+        </persona>
+        <persona nombre="Jesús Manuel" apellidos="González Suárez">
+            <datos>
+                <fecha_nacimiento>19/09/1967</fecha_nacimiento>
+                <lugar_nacimiento>Luarca</lugar_nacimiento>        
+                <coordenadas_nacimiento>                   
+                    <latitud>-6.536684</latitud>
+                     <longitud>43.541828</longitud>
+                    <altitud>12</altitud>
+                </coordenadas_nacimiento>
+                <fecha_muerte></fecha_muerte>
+                <lugar_muerte></lugar_muerte>
+                <coordenadas_muerte>                    
+                    <latitud></latitud>
+                    <longitud></longitud>
+                    <altitud></altitud>
+                </coordenadas_muerte>
+                <fotografias enlace="multimedia/padre.jpg"></fotografias>
+                <videos></videos>         
+                <comentarios>Padre</comentarios>  
+            </datos>
+            <persona nombre="Jesús" apellidos="González Carrera">
+                <datos>
+                    <fecha_nacimiento>02/04/1943</fecha_nacimiento>
+                    <lugar_nacimiento>Medal</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.760463</latitud>
+                        <longitud>43.554244</longitud>
+                        <altitud>48</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte></fecha_muerte>
+                    <lugar_muerte></lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud></latitud>
+                        <longitud></longitud>
+                        <altitud></altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo2.jpg">Abuelo paterno</fotografias>
+                    <videos></videos>         
+                    <comentarios>Abuelo paterno</comentarios>  
+                </datos>
+                <persona nombre="Manuel" apellidos="González">
+                <datos>
+                    <fecha_nacimiento>03/06/1903</fecha_nacimiento>
+                    <lugar_nacimiento>Medal</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.762188</latitud>
+                        <longitud>43.554030</longitud>
+                        <altitud>58</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>07/12/1990</fecha_muerte>
+                    <lugar_muerte>Oviedo</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-5.868598</latitud>
+                        <longitud>43.356577</longitud>
+                        <altitud>291</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo4.jpg"></fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuelo paterno</comentarios>  
+                </datos>
+                </persona>
+                <persona nombre="Luisa" apellidos="Carrera">
+                <datos>
+                    <fecha_nacimiento>18/04/1905</fecha_nacimiento>
+                    <lugar_nacimiento>Mohías</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.742013</latitud>
+                        <longitud>43.548819</longitud>
+                        <altitud>73</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>26/02/1991</fecha_muerte>
+                    <lugar_muerte>Medal</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.759234</latitud>
+                        <longitud>43.551911</longitud>
+                        <altitud></altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela4.jpg">Bisabuela paterna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuela paterna</comentarios>  
+                </datos>
+                </persona>
+            </persona>            
+            <persona nombre="María Dolores Rolindes" apellidos="Suárez Cerdeira">
+                <datos>
+                    <fecha_nacimiento>24/09/1945</fecha_nacimiento>
+                    <lugar_nacimiento>Ortiguera</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.741010</latitud>
+                        <longitud>43.560568</longitud>
+                        <altitud>13</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte></fecha_muerte>
+                    <lugar_muerte></lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud></latitud>
+                        <longitud></longitud>
+                        <altitud></altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela5.jpg">Abuela paterna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Abuela paterna</comentarios>  
+                </datos>
+                <persona nombre="Cecilio" apellidos="Suárez">
+                <datos>
+                    <fecha_nacimiento>11/07/1902</fecha_nacimiento>
+                    <lugar_nacimiento>Ortiguera</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.742332</latitud>
+                        <longitud>43.561233</longitud>
+                        <altitud>43</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>21/04/1987</fecha_muerte>
+                    <lugar_muerte>Ortiguera</lugar_muerte>
+                    <coordenadas_muerte>                        
+                        <latitud>-6.742137</latitud>
+                        <longitud>43.559065</longitud>
+                        <altitud>24</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuelo3.jpg">Bisabuelo paterno</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuelo paterno</comentarios>  
+                </datos>
+                </persona>
+                <persona nombre="Lola" apellidos="Cerdeira">
+                <datos>
+                    <fecha_nacimiento>20/12/1900</fecha_nacimiento>
+                    <lugar_nacimiento>Ortiguera</lugar_nacimiento>        
+                    <coordenadas_nacimiento>                        
+                        <latitud>-6.742457</latitud>
+                        <longitud>43.559711</longitud>
+                        <altitud>34</altitud>
+                    </coordenadas_nacimiento>
+                    <fecha_muerte>21/09/2006</fecha_muerte>
+                    <lugar_muerte>Ortiguera</lugar_muerte>
+                    <coordenadas_muerte>
+                        <latitud>-6.734554</latitud>
+                        <longitud>43.562251</longitud>
+                        <altitud>55</altitud>
+                    </coordenadas_muerte>
+                    <fotografias enlace="multimedia/abuela6.jpg">Bisabuela paterna</fotografias>
+                    <videos></videos>         
+                    <comentarios>Bisabuela paterna</comentarios>  
+                </datos>
+            </persona>
+            </persona>            
+        </persona>
+    </persona>
+</personas>

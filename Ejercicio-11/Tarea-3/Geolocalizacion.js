@@ -49,46 +49,24 @@ class GeoLocalizacion{
         liPrecision.append("Precisión de latitud y longitud: " + this.precision + " metros");
         coordenadas.appendChild(liPrecision);
 		
-		//Si descomento lo siguiente no me funciona (puede ser mi ordenador)
 		
-        /*let liAltitud = document.createElement('li');
-        liAltitud.append("Altitud: " + this.altitud + " metros");
-        coordenadas.appendChild(liAltitud);
-        let liPrecisionAltitud = document.createElement('li');
-        liPrecisionAltitud.append("Precisión altitud: " + this.precisionAltitud + " metros");
-        coordenadas.appendChild(liPrecisionAltitud);
-        let liRumbo = document.createElement('li');
-        liRumbo.append("Rumbo: " + this.rumbo + " grados");
-        coordenadas.appendChild(liRumbo);
-        let liVelocidad = document.createElement('li');
-        liVelocidad.append("Velocidad: " + this.velocidad + " metros/segundo");
-        coordenadas.appendChild(liVelocidad);*/
     }
 
     getMapaEstaticoGoogle(dondeVerlo){
         var ubicacion=document.getElementById(dondeVerlo);
         
-        var apiKey = "&key=AIzaSyCCdtC__hYe1HM4REwX-E0-mp_O4S9ecL0";
-        //URL: obligatoriamente https
+        
+        var apiKey = "&key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU";
         var url = "https://maps.googleapis.com/maps/api/staticmap?";
-        //Parametros
-        // centro del mapa (obligatorio si no hay marcadores)
+
         var centro = "center=" + this.latitud + "," + this.longitud;
-        //zoom (obligatorio si no hay marcadores)
-        //zoom: 1 (el mundo), 5 (continentes), 10 (ciudad), 15 (calles), 20 (edificios)
+
         var zoom ="&zoom=15";
-        //Tamaño del mapa en pixeles (obligatorio)
+        
         var size = "&size=800x600";
-        //Escala (opcional)
-        //Formato (opcional): PNG,JPEG,GIF
-        //Tipo de mapa (opcional)
-        //Idioma (opcional)
-        //region (opcional)
-        //marcadores (opcional)
+
         var marcador = "&markers=color:red%7Clabel:S%7C" + this.latitud + "," + this.longitud;
-        //rutas. path (opcional)
-        //visible (optional)
-        //style (opcional)
+
         var sensor = "&sensor=false"; 
         
         this.imagenMapa = url + centro + zoom + size + marcador + sensor + apiKey;

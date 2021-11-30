@@ -2,35 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8"/>
-    <title>Ejercicio8</title>
+    <title>Ejercicio 8</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Ejercicio8.js"></script>
     <link rel="stylesheet" href="Ejercicio8.css"/>
 </head>
 <body>
         
-    <h1>Estación meteorológica uniovi</h1>
-    <ul class="datos"></ul>  
+    <h1>Estación meteorológica uniovi</h1>    
     
     <h2>Oviedo</h2>
-    <button id = "TiempoOviedo" onclick = "meteo.cargarDatos('Oviedo'),meteo.verDatos()">Ver meteorología</button>
-    <button id = "JSONOviedo" onclick = "meteo.cargarDatos('Oviedo'), meteo.verJSON()">Obtener JSON</button>
-
+    <button id = "TiempoEnOviedo" onclick = "meteo.cargarDatos('Oviedo');">Ver meteorología</button>
+    
     <h2>Andés</h2>
-    <button id = "TiempoAndes" onclick = "meteo.cargarDatos('Andes, ES'),meteo.verDatos()">Ver meteorología</button>
-    <button id = "JSONAndes" onclick = "meteo.cargarDatos('Andes, ES'),meteo.verJSON()">Obtener JSON</button>   
-
+    <button id = "TiempoEnAndes" onclick = "meteo.cargarDatos('Andes, ES')">Ver meteorología</button>
+    
+    
     <h2>Navia</h2>
-    <button id = "TiempoNavia" onclick = "meteo.cargarDatos('Navia'),meteo.verDatos()">Ver meteorología</button>
-    <button id = "JSONNavia" onclick = "meteo.cargarDatos('Navia'),meteo.verJSON()">Obtener JSON</button>
+    <button id = "TiempoEnNavia" onclick = "meteo.cargarDatos('Navia');">Ver meteorología</button>
     
     <h2>Coaña</h2>
-    <button id = "TiempoCoaña" onclick = "meteo.cargarDatos('Coaña'),meteo.verDatos()">Ver meteorología</button>
-    <button id = "JSONCoaña" onclick = "meteo.cargarDatos('Coaña'),meteo.verJSON()">Obtener JSON</button>
-
+    <button id = "TiempoEnCoaña" onclick = "meteo.cargarDatos('Coaña');">Ver meteorología</button>
+    
     <h2>Ribadeo</h2>
-    <button id = "TiempoRibadeo" onclick = "meteo.cargarDatos('Ribadeo'),meteo.verDatos()">Ver meteorología</button>
-    <button id = "JSONRibadeo" onclick = "meteo.cargarDatos('Ribadeo'),meteo.verJSON()">Obtener JSON</button>   
+    <button id = "TiempoEnRibadeo" onclick = "meteo.cargarDatos('Ribadeo');">Ver meteorología</button>
+
+    <br>
+        <p><strong>JSON:</strong></p>
+        <pre class="json"></pre>
+        <p><strong>Meteorología:</strong></p>
+        <p class="datos"></p>
     
    <footer>
     <a href="https://validator.w3.org/check?uri=referer">

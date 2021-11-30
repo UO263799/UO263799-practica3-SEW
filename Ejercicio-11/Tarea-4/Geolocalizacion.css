@@ -9,33 +9,43 @@ h1{
     font-size: 2em;
     
 }
-/* a=0 b=0 c=1 001*/
-
-h2{        
-    text-align: left;
-    padding: 10px;    
-    color: black;
-    background-color:white;
-    font-size: 1em;
-    
+/*especificidad -> 100*/
+#mapa {
+  margin: auto;
+  height: 40em;
+  width: 100%;
 }
 
-/* a=0 b=1 c=1 011*/
-input[type="button"] {
-  position: relative;
-  cursor: pointer;
-  width: 175px;
-  height: 40px;
-  background: white;
-  border-radius: 33px;
-  margin: 0px 7px 11px 1px;
-  color: black;
-  line-height: 36px;
+/*especificidad -> 10*/
+.container {
+  padding: 1em;
+  border: solid;
+  border-radius: 0.7em;
+  width: 70%;
+  margin: auto;
+  border-color: darkslategray;
+  margin-bottom: 1em;
   text-align: center;
-    
 }
 
+/*especificidad -> 1*/
+ul {
+  margin:0;
+  padding:0;
+  text-align: center;
+  list-style-position: inside;             
+}
 
+/*especificidad -> 2*/
+ul  li {
+  padding: 2px 5px;               
+}
+
+body{
+  font: 400 1.4em Tahoma, sans-serif;
+  line-height: 3;
+  color: black;
+}
 
 
 

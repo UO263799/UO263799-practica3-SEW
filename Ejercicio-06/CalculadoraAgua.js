@@ -67,13 +67,25 @@ class CalculadoraRPN {
             document.getElementById("pila").value += this.stack[index] + "\t";
         }
     }
-    suma(){
-        if(this.stack.length >= 2){
-            var number1 = this.stack.pop();
+
+    repaintPantallaResultadoPila(){
+        document.getElementById("pila").value = "";
+        for (let index = 0; index < this.stack.length; index++) {
+            document.getElementById("pila").value += this.stack[index] + "\t";
+        }
+        document.getElementById("pila").value += " litros/día"
+    }
+    resultado(){
+        if(this.stack.length == 6){
+            var number6 = this.stack.pop();
+            var number5 = this.stack.pop();
+            var number4 = this.stack.pop();
+            var number3 = this.stack.pop();
             var number2 = this.stack.pop();
-            var res = number2 + number1;
-            this.stack.push(res);
-            this.repaintPantallaPila();
+            var number1 = this.stack.pop(); 
+            var res = (((number1 * ((number2*90)+(number4*8)+(number3*4)))+(number5*42)+(number6*54)))/7;
+            this.stack.push(Math.round(res));
+            this.repaintPantallaResultadoPila();
         }
     }
     resta(){
@@ -263,11 +275,16 @@ class CalculadoraRPN {
             this.pantalla = "";
             document.getElementById("pantalla").value = this.pantalla;
         }else{
-            this.stack.push(parseFloat(str));
-            this.pantalla = "";
-            document.getElementById("pantalla").value = this.pantalla;
-            document.getElementById("pila").value += str + "\t";
+            if(this.stack.length < 6){
+                this.stack.push(parseFloat(str));
+                this.pantalla = "";
+                document.getElementById("pantalla").value = this.pantalla;
+                document.getElementById("pila").value += str + "\t";
+            }
+            
         }
     }
+
+    
 }
 var calculadora = new CalculadoraRPN();

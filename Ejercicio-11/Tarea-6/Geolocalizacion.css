@@ -3,17 +3,25 @@ body{
     font: 400 1.4em Tahoma, sans-serif;
     line-height: 3;
     color: black;
-}
+    }
+    
 
 /*especificidad -> 1*/
-h1{
+h1{    
+    border-radius: 20px;    
+    text-transform: uppercase;
     text-align: center;
-    color: darkslategray;
-}
+    padding: 20px;
+    background-color:rgb(100, 53, 0);
+    color: white;
+    font-size: 2em;
+    
+  }
+  /*especificidad -> 100*/
+  #mapa {
+  margin: auto;
+  height: 40em;
+  width: 100%;
+  }
+  
 
-/*especificidad -> 100*/
-#mapa {
-    margin: auto;
-    height: 40em;
-    width: 100%;
-}

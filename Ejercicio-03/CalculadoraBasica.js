@@ -54,6 +54,19 @@ class CalculadoraBasica {
             if(event.keyCode == 13){
                 this.igual();
             }
+            if(event.key == '.'){
+                this.punto();
+            }
+            if(event.key == 'm'){
+                this.mrc();
+            }
+            if(event.key == 'n'){
+                this.mMenos();
+            }
+            if(event.key == 'b'){
+                this.mMas();
+            }
+            
             
           });
         

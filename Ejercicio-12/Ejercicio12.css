@@ -1,6 +1,7 @@
 /*especificidad -> 1*/
 body{
     font: 400 1em Tahoma, sans-serif;
+    background-color: white;
     color: black;
 }
 
@@ -9,5 +10,6 @@ h1{
     text-transform: uppercase;
     text-align: left;
     margin: auto;
+    background-color: white;
     color: black;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio10</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+    <link rel="stylesheet" href="Ejercicio10.css"/>
+</head>
+
+<body>
+    <h1>Datos red eléctrica en el último año</h1>
+    
+
+    <h2>Asturias</h2>
+    <button id = "JSONAsturias" onclick = "elec.verJSON('Asturias', '11')">Obtener JSON</button>
+
+    <h2>Madrid</h2>
+    <button id = "JSONMadrid" onclick = "elec.cargarDatos('Madrid', '13'), elec.verJSON()">Obtener JSON</button>
+
+    <h2>Cataluña</h2>
+    <button id = "JSONCataluña" onclick = "elec.cargarDatos('Cataluña', '9'), elec.verJSON()">Obtener JSON</button>
+
+    <h2>Galicia</h2>
+    <button id = "JSONGalicia" onclick = "elec.cargarDatos('Galicia', '17'), elec.verJSON()">Obtener JSON</button>
+
+    <br>
+    <p><strong>JSON:</strong></p>
+    <pre class="json"></pre>
+    
+</body>

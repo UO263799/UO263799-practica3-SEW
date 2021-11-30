@@ -1,0 +1,25 @@
+{
+    "squadName": "Football team",
+    "homeTown": "Barcelona",
+    "formed": 1899,
+    "stadium": "Camp nou",
+    "active": true,
+    "members": [
+      {
+        "name": "Xavi",
+        "age": 40,
+        "clubs": [
+          "Fc Barcelona",
+		  "Al-Sadd"
+        ]
+      },
+      {
+        "name": "Iniesta",
+        "age": 37,
+        "clubs": [
+          "Fc Barcelona",
+		  "Vissel Kobe"
+        ]
+      }
+    ]
+  }
